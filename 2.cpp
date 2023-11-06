@@ -27,4 +27,14 @@ int main(){
     cout<<"capacity: "<<v.capacity()<<endl;
     cout<<"size: "<<v.size()<<endl;
  
+    vector<int> b(3,4);//This is a vector in which we decided the size to be 3 and intialized its value as 9
+
+    for(int i=0;i<b.size();i++){
+        cout<<b[i]<<endl;
+    }
+
+    vector<int> copied(b);//This copies the vector b into copied vector
+    for(int i=0;i<copied.size();i++){
+        cout<<copied[i]<<endl;
+    }
 }
