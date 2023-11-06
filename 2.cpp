@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     vector<int> v;//Formation of dynamic array using STL
-    cout<<"size: "<<v.capacity()<<endl;
+    cout<<"capacity: "<<v.capacity()<<endl;
 
     v.push_back(4);
     cout<<"capacity: "<<v.capacity()<<endl;
@@ -26,6 +26,5 @@ int main(){
     v.clear();
     cout<<"capacity: "<<v.capacity()<<endl;
     cout<<"size: "<<v.size()<<endl;
-
-    vector<int> a(5,1);//intializes all the elements of the 
+ 
 }
