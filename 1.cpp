@@ -1,7 +1,7 @@
 /*Standard template library - STL*/
 #include<iostream>
 #include<array>
-//standard library for arrays
+//standard library for arrays in STL
 using namespace std;
 
 int main(){
