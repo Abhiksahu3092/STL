@@ -17,17 +17,17 @@ int main(){
     cout<<"capacity: "<<v.capacity()<<endl;//capacity shows the max. capacity of the vector
     cout<<"size: "<<v.size()<<endl;//size shows the no. of elements in the vector
 
-    v.pop_back();
+    //v.pop_back();
 
     for(int i=0;i<v.size();i++){
         cout<<v[i]<<endl;
     }
 
-    v.clear();
+    /*v.clear();
     cout<<"capacity: "<<v.capacity()<<endl;
     cout<<"size: "<<v.size()<<endl;
  
-    vector<int> b(3,4);//This is a vector in which we decided the size to be 3 and intialized its value as 9
+    vector<int> b(3,4);//This is a vector in which we decided the size to be 3 and intialized its value as 4
 
     for(int i=0;i<b.size();i++){
         cout<<b[i]<<endl;
@@ -36,5 +36,5 @@ int main(){
     vector<int> copied(b);//This copies the vector b into copied vector
     for(int i=0;i<copied.size();i++){
         cout<<copied[i]<<endl;
-    }
+    }*/
 }
